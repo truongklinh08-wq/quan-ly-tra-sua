@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản Lý Quán Trà Sữa</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="#home" class="logo">
+      <img src="images/logo.png" alt="Logo Quán Trà Sữa" class="logo" style="height:70px;">
+    </a>
+    <nav class="navbar">
+      <div class="dropdown">
+        <a href="#" class="dropbtn">Sản phẩm <span class="arrow">▾</span></a>
+        <div class="dropdown-content">
+          <a href="#menu">Menu đồ uống</a>
+          <a href="#special">Món đặc biệt</a>
+        </div>
+      </div>
+      <a href="#order">Đơn hàng</a>
+      <a href="#offers">Ưu đãi</a>
+      <a href="#about">Giới thiệu</a>
+    </nav>
+    <button class="login-btn"><span class="text-gradient">Đăng nhập / Đăng ký</span></button>
+  </header>
+
+  <!-- Banner -->
+  <section id="home" class="home">
+    <div class="slider">
+      <div class="slides"></div>
+      <button class="prev">❮</button>
+      <button class="next">❯</button>
+      <button class="buy"><span class="text-gradient">ĐẶT NGAY</span><span class="cup">🥤</span></button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <div id="menu">
+    <!-- Sản phẩm nổi bật -->
+    <section id="best-seller" class="now-showing">
+      <h2>ĐỒ UỐNG BÁN CHẠY</h2>
+      <div class="drink-slider-container">
+        <button class="prev-drink">❮</button>
+        <div class="drink-slider"></div>
+        <button class="next-drink">❯</button>
+      </div>
+      <div class="drink-dots"></div>
+      <button class="show-more-btn" id="show-more-best"><span class="text-gradient">Xem thêm</span></button>
+    </section>
+
+    <!-- Món sắp ra mắt -->
+    <section id="coming-drinks" class="coming-soon">
+      <h2>THỨC UỐNG MỚI SẮP RA MẮT</h2>
+      <div class="drink-slider-container">
+        <button class="prev-drink">❮</button>
+        <div class="drink-slider"></div>
+        <button class="next-drink">❯</button>
+      </div>
+      <div class="drink-dots"></div>
+      <button class="show-more-btn" id="show-more-coming"><span class="text-gradient">Xem thêm</span></button>
+    </section>
+  </div>
+    
+  <!-- Ưu đãi -->
+  <section id="offers" class="special-offers">
+    <h2>ƯU ĐÃI ĐẶC BIỆT</h2>
+    <div class="offers-container">
+      <!-- Ví dụ 1 -->
+      <!--
+      <div class="offer-card">
+        <img src="images/uudai1.png" alt="U22 Trà sữa">
+        <h3>Combo U22 - Mua 1 tặng 1</h3>
+        <p>Dành riêng cho học sinh, sinh viên! Uống vui cùng bạn bè, nhận ưu đãi cực đã!</p>
+        <a href="#">Xem chi tiết</a>
+      </div>
+      -->
+    </div>
+  </section>
+
+  <!-- Giới thiệu -->vuhuiohuh
+  <section id="about" class="about">
+    <h2>VỀ QUÁN TRÀ SỮA</h2>
+    <p>Website này giúp quản lý menu, đơn hàng và khách hàng dễ dàng, hỗ trợ nhân viên và chủ quán trong việc theo dõi kinh doanh, thống kê doanh thu và tạo chương trình khuyến mãi.</p>
+  </section>
+
+  <!-- Gọi file script riêng -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+[
+  { "id": 1, "name": "Trà sữa truyền thống", "price": 25000, "categoryId": 1 },
+  { "id": 2, "name": "Trà đào", "price": 30000, "categoryId": 1 },
+  { "id": 3, "name": "Hồng trà kem cheese", "price": 35000, "categoryId": 1 },
+  { "id": 4, "name": "Trà sữa matcha", "price": 32000, "categoryId": 1 }
+]
